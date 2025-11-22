@@ -1,8 +1,7 @@
-# 🎵 Shazam Clone - Audio Fingerprinting System
 
-A robust Java-based audio recognition system that identifies songs from short audio samples, similar to Shazam. It uses spectral peak fingerprinting with FFT analysis and stores data in a MySQL database for persistence.
 
-## Features
+
+
 
 - **Audio Fingerprinting**: Uses FFT-based spectral analysis to create unique audio fingerprints.
 - **Persistent Storage**: Stores songs and fingerprints in a MySQL database.
@@ -11,12 +10,6 @@ A robust Java-based audio recognition system that identifies songs from short au
 - **File Analysis**: Identify songs from WAV audio files.
 - **Robustness**: Handles noise and slight distortions.
 
-## Requirements
-
-- **Java 11** or higher
-- **Maven 3.6+**
-- **MySQL Server 8.0+**
-- **Microphone** (optional, for recording feature)
 
 ## Installation & Setup
 
